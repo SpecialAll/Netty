@@ -15,7 +15,7 @@ import io.netty.util.CharsetUtil;
  * @Author ningque
  * @Date 2019/11/22
  */
-public class MyChatInitilaizer extends ChannelInitializer<SocketChannel> {
+public class MyChatServerInitializer extends ChannelInitializer<SocketChannel> {
     @Override
     protected void initChannel(SocketChannel ch) throws Exception {
         ChannelPipeline pipeline = ch.pipeline();

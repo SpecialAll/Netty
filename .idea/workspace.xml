@@ -1,7 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7ce35750-88f2-49e9-b599-f8ef75e8a226" name="Default Changelist" comment="" />
+    <list default="true" id="7ce35750-88f2-49e9-b599-f8ef75e8a226" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zxh/netty/thirdExample/MyChatClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zxh/netty/thirdExample/MyChatClientHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zxh/netty/thirdExample/MyChatClientInitializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/zxh/netty/secondExample/MyClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/zxh/netty/secondExample/MyClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/zxh/netty/secondExample/MyServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/zxh/netty/secondExample/MyServer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zxh/netty/secondExample/MyClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zxh/netty/secondExample/MyClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zxh/netty/secondExample/MyServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zxh/netty/secondExample/MyServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zxh/netty/thirdExample/MyChatInitilaizer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zxh/netty/thirdExample/MyChatServerInitializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zxh/netty/thirdExample/MyChatServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zxh/netty/thirdExample/MyChatServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zxh/netty/thirdExample/MyChatServerHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zxh/netty/thirdExample/MyChatServerHandler.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,8 +79,13 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1Tux6hxPvJEuxFJU8HiRt7SpzaP" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../student_manageSystem" />
@@ -82,7 +108,33 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MyServer">
+  <component name="RunManager" selected="Application.MyChatServer">
+    <configuration name="MyChatClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zxh.netty.thirdExample.MyChatClient" />
+      <module name="com.zxh.netty.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zxh.netty.thirdExample.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyChatServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zxh.netty.thirdExample.MyChatServer" />
+      <module name="com.zxh.netty.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zxh.netty.thirdExample.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MyClient" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.zxh.netty.secondExample.MyClient" />
       <module name="com.zxh.netty.main" />
@@ -122,6 +174,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zxh.netty.thirdExample.demo" />
+      <module name="com.zxh.netty.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zxh.netty.thirdExample.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Unnamed" type="JarApplication" nameIsGenerated="true">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -133,9 +198,15 @@
       <item itemvalue="Application.TestServer" />
       <item itemvalue="Application.MyServer" />
       <item itemvalue="JAR Application.Unnamed" />
+      <item itemvalue="Application.MyChatServer" />
+      <item itemvalue="Application.MyChatClient" />
+      <item itemvalue="Application.demo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.demo" />
+        <item itemvalue="Application.MyChatClient" />
+        <item itemvalue="Application.MyChatServer" />
         <item itemvalue="Application.MyServer" />
         <item itemvalue="Application.TestServer" />
       </list>
@@ -154,12 +225,23 @@
       <workItem from="1574323612589" duration="840000" />
       <workItem from="1574324469293" duration="13337000" />
       <workItem from="1574391911649" duration="4486000" />
-      <workItem from="1574492240095" duration="2997000" />
+      <workItem from="1574492240095" duration="5156000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/netty$MyClient.ic" NAME="MyClient Coverage Results" MODIFIED="1574392583979" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

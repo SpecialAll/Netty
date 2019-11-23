@@ -21,7 +21,8 @@ public class MyServer {
         try{
             ServerBootstrap serverBootstrap = new ServerBootstrap();
             //客户端只能使用Handler，服务端能够使用childHandler和handler
-            serverBootstrap.group(bossGroup, workerGroup).channel(NioServerSocketChannel.class).childHandler(new MyServerHandler());
+            serverBootstrap.group(bossGroup, workerGroup).channel(NioServerSocketChannel.class).
+                    childHandler(new MyServerInitializer());
 
             ChannelFuture channelFuture = serverBootstrap.bind(8899).sync();
             channelFuture.channel().closeFuture().sync();

@@ -19,7 +19,7 @@ public class MyClient {
 
         try{
             Bootstrap bootstrap = new Bootstrap();
-            bootstrap.group(eventLoopGroup).channel(NioSocketChannel.class).handler(new MyClientHandler());   //客户端只能使用Handler，服务端能够使用childHandler和handler
+            bootstrap.group(eventLoopGroup).channel(NioSocketChannel.class).handler(new MyClientInitializer());   //客户端只能使用Handler，服务端能够使用childHandler和handler
             ChannelFuture channelFuture = bootstrap.connect("localhost", 8899).sync();
             channelFuture.channel().closeFuture().sync();
         } finally {

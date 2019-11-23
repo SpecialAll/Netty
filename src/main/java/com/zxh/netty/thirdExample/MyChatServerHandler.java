@@ -57,6 +57,8 @@ public class MyChatServerHandler extends SimpleChannelInboundHandler<String> {
         channelGroup.writeAndFlush("[服务器] - "+channel.remoteAddress() + " 离开\n");
 
         //netty会自动将断掉连接的channel自动删除
+
+        System.out.println(channelGroup.size());
     }
 
     @Override
